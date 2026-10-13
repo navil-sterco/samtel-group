@@ -1,0 +1,147 @@
+import Link from "next/link";
+export const metadata = { title: "Investors Informations" };
+export default function Page() {
+  return (
+    <>
+      <section className="inner-section">
+        <div className="container">
+          <div className="col-lg-10 mx-auto">
+            <div className="inner-text">
+              <h1
+                className="fade-up"
+                data-delay="0.3"
+                data-duration="1"
+                style={
+                  {
+                    translate: "none",
+                    rotate: "none",
+                    scale: "none",
+                    opacity: "1",
+                    transform: "translate(0px, 0px)",
+                  } as React.CSSProperties
+                }
+              >
+                {"Investors Informations"}
+              </h1>
+              <blockquote
+                className="fade-up"
+                data-delay="0.3"
+                data-duration="1.4"
+              >
+                {
+                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text"
+                }
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="breadcrumb-sec">
+        <div className="container">
+          <div className="col-lg-10 mx-auto">
+            <nav
+              style={
+                { "--bs-breadcrumb-divider": "'>'" } as React.CSSProperties
+              }
+              aria-label="breadcrumb"
+              className="fade-up"
+              data-delay="0.3"
+              data-duration="1"
+            >
+              <ol className="breadcrumb">
+                <li className="breadcrumb-item">
+                  <Link href="#">{"Home"}</Link>
+                </li>
+                <li className="breadcrumb-item">
+                  <Link href="#">{"Investors"}</Link>
+                </li>
+                <li className="breadcrumb-item active" aria-current="page">
+                  {"Notice of Board Meeting\n"}
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <section className="products_systems_detail">
+        <div className="container">
+          <div className="products_systems_detail_grd">
+            <div className="prodcut-nav">
+              <ul>
+                <li className="tab-item " data-category="airborne">
+                  <Link href="/investors-informations">{"Annual Reports"}</Link>
+                </li>
+                <li className="tab-item" data-category="naval">
+                  <Link href="/financial-results">{"Financial Results"}</Link>
+                </li>
+                <li className="tab-item" data-category="land">
+                  <Link href="/intimation-to-stock-exchange">
+                    {"Intimation to Stock Exchange"}
+                  </Link>
+                </li>
+                <li className="tab-item active" data-category="optronics">
+                  <Link href="/notice-of-board-meeting">
+                    {"Notice of Board Meeting "}
+                  </Link>
+                </li>
+                <li className="tab-item" data-category="space">
+                  <Link href="#">
+                    {"Newspaper Advertisement for Shareholders"}
+                  </Link>
+                </li>
+                <li className="tab-item" data-category="unmanned">
+                  <Link href="#">
+                    {"Newspaper Advertisement Financial Results"}
+                  </Link>
+                </li>
+                <li className="tab-item" data-category="railways">
+                  <Link href="#">{"Share Holding Patterns"}</Link>
+                </li>
+                <li className="tab-item" data-category="testBench">
+                  <Link href="#">
+                    {"Secretarial Compliance Report for Equity Capital"}
+                  </Link>
+                </li>
+                <li className="tab-item" data-category="customSolution">
+                  <Link href="#">{"Notice To the Members"}</Link>
+                </li>
+                <li className="tab-item" data-category="corporate">
+                  <Link href="#">{" Corporate Governance Report"}</Link>
+                </li>
+                <li className="tab-item" data-category="annual">
+                  <Link href="#">{"Annual Compliance Report"}</Link>
+                </li>
+                <li className="tab-item" data-category="members">
+                  <Link href="#">{"Members meetings"}</Link>
+                </li>
+              </ul>
+            </div>
+            <div className="pro_tab">
+              <div className="tab_content_wrapper active">
+                <h3 className="fade-up" data-delay="0.3" data-duration="1">
+                  {"Notice of Board Meeting"}
+                </h3>
+                <div className="notice-text">
+                  <blockquote
+                    className="fade-up"
+                    data-delay="0.3"
+                    data-duration="1"
+                  >
+                    {
+                      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley"
+                    }
+                  </blockquote>
+                  <p className="fade-up" data-delay="0.3" data-duration="1">
+                    {
+                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. \n"
+                    }
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

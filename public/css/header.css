@@ -1,0 +1,23 @@
+/* --- Header Wrapper --- */
+
+.header {position: fixed;top: 0;left: 0;width: 100%;z-index: 9999;transition: transform 0.4s ease;background: var(--color-ef);border-top: 5px solid var(--color-d4);/* overflow: hidden; */}
+.header.hide-header { transform: translateY(-100%); }
+.header.inner-header{ background: #dededffa; position: fixed; transform: inherit;}
+.header_nav { display: flex; justify-content: space-between; align-items: center; padding-block: 4rem; position: relative; width: 100%; }
+.header.inner-header.hide-header {background: #ebebebfa;}
+.main-nav { margin-left: auto; }
+.main-nav ul { display: flex; gap: 5rem; list-style: none; margin: 0; padding: 0; }
+.main-nav ul li a { text-decoration: none; color: var(--color-23); font: var(--font-24); font-weight: normal; transition: color 0.3s ease; }
+.main-nav ul>li>a:hover { color: var(--color-c8) }
+.main-nav ul li:hover > a { color: var(--color-c8) }
+.site_dropdown { position: relative; }
+.site_dropdown::after { content: ""; position: absolute; left: 0; right: 0; top: 100%; height: 2rem; z-index: 10; }
+.main-nav .site_dropdown_menu { background-color: var(--color-c8); opacity: 0; visibility: hidden; pointer-events: none; z-index:999999; display: flex; flex-direction: column; gap: 0; min-width: 30rem; max-width: 30rem; padding: 0; position: absolute; top: calc(100% + 2rem); left: 0; transform: translateY(0); transition: opacity .3s ease, visibility .3s ease; box-shadow: 0 2px 5px #0000001a; }
+.main-nav .site_dropdown:hover .site_dropdown_menu { opacity: 1; visibility: visible; pointer-events: auto; }
+.main-nav .site_dropdown_menu a { font: var(--font-18); color: var(--color-white); padding: 1rem 2rem; display: block; }
+.main-nav .site_dropdown_menu a:hover { color: var(--color-c8); background-color: var(--color-white); }
+.main-nav .site_dropdown_menu li { border-bottom: .1rem solid #0000001a; padding: 0; width:100%;}
+ul.site_dropdown_menu li ul { display: block; position: absolute; transform: translate(30rem, 0rem); background-color: var(--color-c8); top: 21.9%; opacity: 0; visibility: hidden; }
+ul.site_dropdown_menu li:hover ul { opacity: 1; visibility: visible; }
+ul.site_dropdown_menu li:hover>a { background: #fff; }
+.logo figure { width: 16.4rem; }
