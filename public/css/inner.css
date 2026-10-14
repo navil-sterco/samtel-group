@@ -398,9 +398,7 @@
 .legacy_cont { width: 44.1rem; margin-left: auto; }
 .legacy_counter { padding-block: 4rem; padding-inline: 4rem;    margin-top: 9rem;}
 .legacy_grid2 { grid-template-columns: 80rem auto; }
-    .abt_grid {
-        grid-template-columns: auto 73rem;
-    }
+.abt_grid { grid-template-columns: auto 73rem; }
 
  
 
