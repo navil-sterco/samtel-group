@@ -379,7 +379,7 @@ export default function Page() {
                     <blockquote>Learn more about industrial sectors</blockquote>
                     <div className="mobile-trigger">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path d="M9 6L15 12L9 18" stroke="" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M9 6L15 12L9 18" stroke="" strokeWidth="1.1" strokeLinecap="round" strokeLinejoin="round"></path>
                         </svg>
                     </div>
                     <Link className="streched_link" href="https://samtel.vercel.app/industries" target="_blank">link</Link>
