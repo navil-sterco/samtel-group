@@ -11,10 +11,12 @@ export default function Footer() {
                 <div className="footer_address">
                   <h4>Design and Production Facilities:</h4>
                   <p>2nd Floor, Plot No. 288-A, Udyog Vihar Phase-IV, Gurugram 122015, Haryana, INDIA.</p>
+                  <p>Tel: <Link href="tel:+91 124 4682000"> +91 124 4682000</Link> | Fax: +91 124 4682029</p>
                 </div>
                  <div className="footer_address">
                   <h4>Registered Office:</h4>
                   <p>1212, 12th Floor, 43, Chiranjiv Tower, Nehru Place, New Delhi - 110019</p>
+                          <p>Tel: <Link href="tel:+911140555700"> +91 11 40555700</Link> | Fax: +91 11 41555006</p>
                 </div>
 
                 {/* <ul>

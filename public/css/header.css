@@ -42,6 +42,7 @@ ul.site_dropdown_menu li:hover>a { background: #fff; }
         background: var(--color-ef);
         border-top: 5px solid var(--color-d4);
         box-shadow: 0 0 0 1px #dcdcdc inset;
+        width: 100%;
     }
 
     .mobile-logo-bar a {

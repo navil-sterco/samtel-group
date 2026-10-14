@@ -123,6 +123,9 @@ introTl
 }
   /*happening slider js*/
 
+
+  
+
 document.addEventListener('DOMContentLoaded', function () {
   const swiper = new Swiper('.happenings-slider', {
     slidesPerView: 1.2,
@@ -169,4 +172,55 @@ var swiper = new Swiper(".capacitySwiper", {
 
 });
 
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const slider = document.querySelector(".experties_boxes");
+
+    if (!slider) return;
+
+    let autoplay;
+    let currentIndex = 0;
+
+    function initExpertSlider() {
+        clearInterval(autoplay);
+
+        const items = slider.querySelectorAll(".epxert_item");
+
+        if (window.innerWidth > 767 || items.length <= 2) {
+            slider.style.transform = "";
+            return;
+        }
+
+        currentIndex = 0;
+
+        function slideNext() {
+            const gap = parseFloat(getComputedStyle(slider).gap) || 0;
+            const itemWidth = items[0].getBoundingClientRect().width;
+            const visibleItems = 2;
+            const maxIndex = items.length - visibleItems;
+
+            currentIndex += visibleItems;
+
+            if (currentIndex > maxIndex) {
+                currentIndex = 0;
+            }
+
+            slider.scrollTo({
+                left: currentIndex * (itemWidth + gap),
+                behavior: "smooth"
+            });
+        }
+
+        autoplay = setInterval(slideNext, 2500);
+    }
+
+    initExpertSlider();
+
+    window.addEventListener("resize", initExpertSlider);
+});
+
+
 })(jQuery);
+
+

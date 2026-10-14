@@ -122,6 +122,7 @@ export default function Page() {
               />
             </figure>
             <div className="edu_list">
+              
               {/* <h4 className="fade-up" data-delay="0.4" data-duration="1.4">
                 {"EDUCATION"}
               </h4> */}

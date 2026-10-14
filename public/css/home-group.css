@@ -263,7 +263,7 @@
 
 @media (max-width: 992px) {
     .experiance_location {
-        margin-block: 5rem 5rem;
+        margin-block: 6rem 3rem;
     }
 
     .experties_boxes {
@@ -273,7 +273,7 @@
     .banner_caption .banner_title>p {
         position: relative;
         line-height: 1.2 !important;
-        font-size: 3.2rem !important;
+        font-size: 3.6rem !important;
         letter-spacing: inherit;
     }
 
@@ -286,16 +286,27 @@
     }
 
     .line-wrap {
-        height: 7rem;
+        height: 10rem;
     }
+.line-section {
+    padding: 3rem 0;
+}
+
+
+}
+@media (max-width: 767px) {
+.banner_caption .banner_title>em{
+    font-size: 1.8rem;
+  letter-spacing: -0.18px;  
+}
 }
 
 @media (max-width:400px) {
     .banner_caption .banner_title>p {
-        position: relative;
+   position: relative;
         line-height: 1.2 !important;
-        font-size: 2.5rem !important;
-        letter-spacing: inherit;
+        font-size: 3.4rem !important;
+        letter-spacing: -0.36px;
     }
 }
 
@@ -307,6 +318,31 @@
         letter-spacing: inherit;
     }
 }
+
+
+@media (max-width: 767px) {
+    .experties_boxes {
+display: flex;
+        gap: 15px;
+        overflow-y: hidden;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+    }
+
+    .experties_boxes::-webkit-scrollbar {
+        display: none;
+    }
+
+    .experties_boxes .epxert_item {
+        flex: 0 0 calc((100% - 15px) / 2);
+        scroll-snap-align: start;
+    }
+}
+
+
+
 
 /*who_we css start here*/
 .who_we {
@@ -494,6 +530,32 @@
 .tile-info-wrapper figure {
     margin: auto;
 }
+.mb_ind_grid {
+    text-align: left;
+    position: relative;
+}
+.mobile-trigger {
+    margin-top: -6rem;
+    margin-left: 2rem;
+}
+
+    .mb_ind_grid blockquote {
+        font: var(--font-18);
+        align-content: center;
+        height: 100%;
+        padding-inline: 2rem;
+        color: #000000;
+        letter-spacing: -0.32px;
+    }
+        .mobile-trigger svg {
+        border: 1px solid #B4B4B4;
+        stroke: currentColor;
+        padding: .2rem;
+    }
+.mb_ind_grid {
+    text-align: center;
+    border-bottom: 1px solid #66666633;
+}
 
 @media (max-width: 1100px) {
 
@@ -593,6 +655,9 @@
 
     .slider-outer-wrapper {
         padding-left: 1.5rem;
+    }
+    .mb_ind_grid {
+    text-align: left;
     }
 }
 
@@ -1089,8 +1154,11 @@
     }
 
     .samtel_social {
-        padding-block: 4rem 4rem;
+        padding-block: 4rem 0rem;
     }
+    .samtel_social h4 {
+    margin-bottom: 7rem;
+}
 
     .samtel_social .col-lg-4 {
         margin-bottom: 6rem;
