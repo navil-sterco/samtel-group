@@ -313,7 +313,14 @@
     .nurt_ttl{margin:0 20rem 7rem 20rem;}
     .nurt_add{padding-right:15rem;}
 }
-@media(max-width:1440px){
+@media(max-width:1599px){
+.edu_grid { grid-template-columns: 82rem auto; }
+.abt_list { margin: 2rem 4rem 0 28rem; }
+.abt_grid { grid-template-columns: auto 90rem; gap: 11rem; }
+}
+
+
+@media(max-width:1499px){
     .abt_cont{padding-right:16rem;}
     .abt_grid{grid-template-columns:auto 85rem;gap:9rem;}
     .abt_list{margin:2rem 0 0 32rem;}
@@ -327,9 +334,10 @@
     .nurt_add{padding-right:0;}
     .nurt_add{padding-left:4rem;}
     .nurtin_cont{gap:12.9rem;}
+ .abt_list { margin: 2rem 4rem 0 32rem; }
 }
 
-@media(max-width:1366px){
+@media(max-width:1399px){
     .abt_cont{padding-right:10rem;}
     .abt_grid{grid-template-columns:auto 80rem;}
     .edu_grid{grid-template-columns:80rem auto;}
@@ -341,6 +349,7 @@
     .legacy_cont2{margin-right:30rem;}
     .nurt_ttl{margin:0 10rem 7rem 10rem;}
     .nurtin_cont{gap:9.9rem;}
+    .abt_list { margin: 2rem 4rem 0 30rem; }
 }
 
 @media(max-width:1280px){
@@ -356,6 +365,19 @@
     .nurtin_cont{gap:3.9rem;}
     .nurt_add{padding-left:3rem;}
 }
+@media(max-width:1199px){
+.abt_grid { grid-template-columns: auto 82rem; }
+.abt_list { margin: 2rem 0 0 12rem; }
+
+}
+@media(max-width:1099px){
+.abt_grid { grid-template-columns: auto 67rem; }
+
+}
+
+
+
+
 
 @media(max-width:991px){
     .abt_grid{grid-template-columns:100%;gap:3rem;}
@@ -383,6 +405,9 @@
     .nurt_banner{padding-bottom:8rem;}
     .nurt_ttl blockquote{margin-bottom:2rem;}
     .nurt_ttl{margin:0 5rem 4rem 5rem;}
+.edu_list { padding-right: 0; }
+.inner-section { margin-top: 9.8rem; }
+
 }
 
 @media(max-width:767px){
@@ -403,7 +428,7 @@
 }
 @media(max-width:575px){
     .abt_cont blockquote{margin-bottom:2rem;}
-    .edu_grid{margin-top:2rem;}
+    .edu_grid{margin-top:4rem;}
     .edu_list h4{margin-bottom:1rem;}
     .abt_list p{margin-bottom:1.5rem;}
     .nurt_banner{padding-bottom:4rem;}
@@ -499,6 +524,11 @@
     .business_list_reve .business_text::before {
         left: 15%;
     }
+.business_text {
+    padding-inline: 8.2rem;
+
+}
+
 }
 
 @media (max-width: 991px) {
@@ -539,10 +569,10 @@
 .business_text::before {
         width: 70%;
     }
-.business_text {
-    padding-inline: 4rem;
-    padding-block: 4rem;
-}
+    .business_text {
+        padding-inline: 3rem;
+        padding-block: 3rem;
+    }
 
 }
 

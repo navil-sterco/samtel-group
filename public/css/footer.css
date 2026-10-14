@@ -15,6 +15,7 @@ ul{padding:0; list-style: none; margin:0;}
 .footer_address h4{color: var(--color-white); font: var(--font-18); font-weight: 700;}
 .footer_address p{color: var(--color-white); font: var(--font-16);}
 .footer_address p a{color: var(--color-white); font: var(--font-16); text-decoration: none;}
+.mobile{display: none;}
 
 @media (max-width:991px) {
 footer { padding-block: 6.7rem 9.3rem; }
@@ -23,8 +24,9 @@ footer { padding-block: 6.7rem 9.3rem; }
 .footer_right { margin: 0 auto; text-align: center; border-top: 1px solid #6666668f; width: 100%; padding-top: 3rem; }
 .social-icon a { width: 4.2rem; height: 4.2rem; }
 .copyright p { font: var(--font-16); letter-spacing: -0.35px;line-height: 1.9 !important; }
-.footer_address { text-align: center; margin-bottom: 4rem; }
-
+.footer_address { text-align: center; margin-bottom: 4rem; border-bottom: 1px solid #7070705c; padding-bottom: 2rem; }
+.footer_address:last-child{ border: none; border: none; margin-bottom: 0; padding-bottom: 0; }
+.mobile{display: block;}
 }
 
 
@@ -145,11 +147,19 @@ footer { padding-block: 6.7rem 9.3rem; }
 ========================================= */
 .menu-btn { background: var(--color-b8); color: var(--color-white); }
 .menu-btn.active-btn { background: var(--color-ef); color: var(--color-c8); }
+.footer-logo{display: none;}
 
 @media (max-width: 991px) {
 body {
     padding-bottom: 4.4rem;
 }
+    .footer-logo {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
 
 
 .mobile-panel,
@@ -294,6 +304,22 @@ body {
     font-size: 1.4rem;
     font-weight: 700;
 }
+.footer_address h4 {
+    color: var(--color-white);
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.footer_address p img{
+        width: 2.3rem;
+        height: 2.3rem;
+        object-fit: contain;
+        margin-right: .5rem;
+}
+.footer_address p {
+    margin-bottom: 2rem;
+}
+
 }
 
 @media (max-width: 414px) {
@@ -301,6 +327,9 @@ body {
 .contact-email-area {
     height: auto;
 }
+
+
+
 }
 
 /* =========================================
