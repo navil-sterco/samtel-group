@@ -324,6 +324,9 @@ html { font-size: 45.5%; }
     html {
         font-size: 62.5%;
     }
+    body {
+        background: #e9e4dc;
+    }
     p{font:var(--font-14)!important; line-height:1.4!important;}
 
     .custom_list li{margin-bottom: 1.5rem;}

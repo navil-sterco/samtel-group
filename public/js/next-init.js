@@ -9,6 +9,7 @@
     "/js/bootstrap.bundle.min.js",
     "/js/aos.js",
     "/js/smoothscroll.min.js",
+    "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js",
     "/js/gsap.min.js",
     "/js/ScrollTrigger.min.js",
     "/js/ScrollToPlugin.min.js",

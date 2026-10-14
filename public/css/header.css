@@ -21,3 +21,40 @@ ul.site_dropdown_menu li ul { display: block; position: absolute; transform: tra
 ul.site_dropdown_menu li:hover ul { opacity: 1; visibility: visible; }
 ul.site_dropdown_menu li:hover>a { background: #fff; }
 .logo figure { width: 16.4rem; }
+.mobile-logo-bar { display: none; }
+
+@media (max-width: 991px) {
+    .header {
+        display: none;
+    }
+
+    .mobile-logo-bar {
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: min(100%, 37.6rem);
+        height: 10rem;
+        z-index: 9998;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--color-ef);
+        border-top: 5px solid var(--color-d4);
+        box-shadow: 0 0 0 1px #dcdcdc inset;
+    }
+
+    .mobile-logo-bar a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .mobile-logo-bar img {
+        width: 13rem;
+        max-height: 7rem;
+        object-fit: contain;
+    }
+}

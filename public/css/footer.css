@@ -139,6 +139,161 @@ footer { padding-block: 6.7rem 9.3rem; }
 .menu-btn { background: var(--color-b8); color: var(--color-white); }
 .menu-btn.active-btn { background: var(--color-ef); color: var(--color-c8); }
 
+@media (max-width: 991px) {
+body {
+    padding-bottom: 4.4rem;
+}
+
+footer {
+    display: none;
+}
+
+.mobile-panel,
+.mobile-menu,
+.mobile-bottom-nav {
+    left: 50%;
+    right: auto;
+    width: min(100%, 37.6rem);
+    transform: translate(-50%, 20px);
+}
+
+.mobile-panel.active,
+.mobile-menu.active {
+    transform: translate(-50%, 0);
+}
+
+.mobile-panel {
+    top: 0;
+    bottom: 4.4rem;
+    background: var(--color-ef);
+    box-shadow: 0 0 0 1px #dcdcdc inset;
+}
+
+.mobile-panel-content {
+    padding: 4.8rem 0 0;
+}
+
+.industries-panel .mobile-panel-content {
+    padding-top: 4.8rem;
+}
+
+.panel-title {
+    padding-bottom: 3.2rem;
+}
+
+.panel-title span {
+    font-size: 1.5rem;
+    letter-spacing: .6px;
+}
+
+.industries-grid {
+    grid-auto-rows: 16.2rem;
+}
+
+.industry-card1.airborne {
+    min-height: 32.4rem;
+}
+
+.industry-card1.naval,
+.industry-card1.space,
+.industry-card1.unmanned,
+.industry-card1.railways,
+.industry-card1.industrial,
+.industry-card1.land {
+    min-height: 16.2rem;
+}
+
+.industry-card1 span {
+    bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+.contact-panel .mobile-panel-content {
+    padding-top: 4.5rem;
+}
+
+.contact-block {
+    margin-top: 4.6rem;
+    padding-inline: 3rem;
+}
+
+.contact-block h2 {
+    font-size: 2.1rem;
+    line-height: 1.35;
+}
+
+.contact-block p {
+    max-width: 29rem;
+    margin-inline: auto;
+    font-size: 1.4rem !important;
+    line-height: 1.45 !important;
+}
+
+.contact-line {
+    width: 27rem;
+    margin-top: 2.3rem;
+}
+
+.contact-email-area {
+    height: auto;
+    margin-top: 0;
+    padding: 5.5rem 2.5rem 5rem;
+}
+
+.email-icon {
+    color: var(--color-c8);
+    font-size: 2.8rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.email-text {
+    font-size: 1.4rem !important;
+    line-height: 1.4 !important;
+}
+
+.mobile-menu {
+    bottom: 4.4rem;
+    background: var(--color-ef);
+    box-shadow: 0 0 0 1px #dcdcdc inset;
+}
+
+.mobile-menu-inner {
+    padding: 5.1rem 0 3rem;
+}
+
+.mobile-menu-item {
+    padding: .9rem 0;
+}
+
+.mobile-menu-item > a,
+.submenu-toggle {
+    min-height: 3.5rem;
+    padding-inline: 3rem;
+    font-size: 2.1rem;
+    line-height: 1.2;
+}
+
+.menu-arrow {
+    width: 2.4rem;
+    height: 2.4rem;
+    flex-basis: 2.4rem;
+    padding: 0;
+}
+
+.mobile-bottom-nav {
+    height: 4.4rem;
+    z-index: 10000;
+    transform: translateX(-50%);
+}
+
+.bottom-nav-item {
+    min-width: 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+}
+
 @media (max-width: 414px) {
 
 .contact-email-area {

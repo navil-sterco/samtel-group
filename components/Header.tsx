@@ -64,6 +64,11 @@ export default function Header() {
           </div>
         </div>
       </section>
+      <section className="mobile-logo-bar" aria-label="Samtel home">
+        <Link href="/">
+          <img src="/images/group-logo.webp" className="img-fluid" alt="Logo" />
+        </Link>
+      </section>
       <div className="nav-overlay" />
     </>
   );
