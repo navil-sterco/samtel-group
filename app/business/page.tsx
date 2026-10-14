@@ -77,7 +77,8 @@ export default function Page() {
                   }
                 </p>
                 <Link
-                  href="#"
+                  href="https://samtel.vercel.app/category/airborne-systems"
+                  target="_blank"
                   className="more_btn fade-up"
                   data-delay="0.6"
                   data-duration="1"
@@ -113,7 +114,8 @@ export default function Page() {
                   }
                 </p>
                 <Link
-                  href="#"
+                  href="https://samtel.vercel.app/category/railways"
+                  target="_blank"
                   className="more_btn fade-up"
                   data-delay="0.6"
                   data-duration="1"
@@ -147,7 +149,8 @@ export default function Page() {
                     }
                   </p>
                   <Link
-                    href="#"
+                    href="https://samtel.vercel.app/category/space-satellite"
+                    target="_blank"
                     className="more_btn fade-up"
                     data-delay="0.6"
                     data-duration="1"
@@ -185,7 +188,8 @@ export default function Page() {
                     }
                   </p>
                   <Link
-                    href="#"
+                    href="https://samtel.vercel.app/category/unmanned-systems"
+                    target="_blank"
                     className="more_btn fade-up"
                     data-delay="0.6"
                     data-duration="1"
@@ -229,7 +233,8 @@ export default function Page() {
                   }
                 </p>
                 <Link
-                  href="#"
+                  href="https://samtel.vercel.app/category/land-tactical-systems"
+                  target="_blank"
                   className="more_btn fade-up"
                   data-delay="0.6"
                   data-duration="1"
@@ -265,7 +270,8 @@ export default function Page() {
                   }
                 </p>
                 <Link
-                  href="#"
+                  href="https://samtel.vercel.app/sustainability-csr"
+                  target="_blank"
                   className="more_btn fade-up"
                   data-delay="0.6"
                   data-duration="1"

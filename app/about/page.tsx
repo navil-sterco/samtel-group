@@ -140,7 +140,8 @@ export default function Page() {
                 }
               </p>
               <Link
-                href="#"
+                href="https://samtel.vercel.app/sustainability-csr"
+                target="_blank"
                 className="more_btn fade-up"
                 data-delay="0.6"
                 data-duration="1"
