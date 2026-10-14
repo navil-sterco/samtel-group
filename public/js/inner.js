@@ -166,6 +166,12 @@ if (
   });
 }
 
+
+
+
+
+
+
 gsap.registerPlugin(ScrollTrigger);
 
 function wipeOn() {
