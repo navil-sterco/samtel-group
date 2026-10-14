@@ -158,74 +158,63 @@ export default function Footer() {
           <ul>
             <li className="mobile-menu-item has-submenu">
               <button className="submenu-toggle" type="button">
-                <span>{"Who we are"}</span>
+                <span>{"Group Companies"}</span>
                 <span className="menu-arrow">{"\u203a"}</span>
               </button>
               <div className="submenu">
-                <Link href="/about">{"About"}</Link>
-                <Link href="/legacy-business">{"Legacy Business"}</Link>
-              </div>
-            </li>
-            <li className="mobile-menu-item has-submenu">
-              <button className="submenu-toggle" type="button">
-                <span>{"What we do"}</span>
-                <span className="menu-arrow">{"\u203a"}</span>
-              </button>
-              <div className="submenu">
-                <Link href="/business">{"Business"}</Link>
-                <Link href="/education">{"Education"}</Link>
-              </div>
-            </li>
-            <li className="mobile-menu-item has-submenu">
-              <button className="submenu-toggle" type="button">
-                <span>{"Industries"}</span>
-                <span className="menu-arrow">{"\u203a"}</span>
-              </button>
-              <div className="submenu">
-                <Link href="/defence-and-avionics">{"Defence & Avionics"}</Link>
-                <Link href="/railway-electronics">{"Railway Electronics"}</Link>
-                <Link href="/space-and-satellite-communication">{"Space & Satellite"}</Link>
-                <Link href="/uav-drones">{"UAVs & Drones"}</Link>
-              </div>
-            </li>
-            <li className="mobile-menu-item has-submenu">
-              <button className="submenu-toggle" type="button">
-                <span>{"Products & Solutions"}</span>
-                <span className="menu-arrow">{"\u203a"}</span>
-              </button>
-              <div className="submenu">
-                <Link href="/optronics">{"Optronics"}</Link>
-                <Link href="/defence-and-avionics">{"Avionics"}</Link>
-              </div>
-            </li>
-            <li className="mobile-menu-item has-submenu">
-              <button className="submenu-toggle" type="button">
-                <span>{"Technology"}</span>
-                <span className="menu-arrow">{"\u203a"}</span>
-              </button>
-              <div className="submenu">
-                <Link href="/space-and-satellite-communication">{"Space & Satellite"}</Link>
-                <Link href="/uav-drones">{"Unmanned Systems"}</Link>
-              </div>
-            </li>
-            <li className="mobile-menu-item has-submenu">
-              <button className="submenu-toggle" type="button">
-                <span>{"Media"}</span>
-                <span className="menu-arrow">{"\u203a"}</span>
-              </button>
-              <div className="submenu">
-                <Link href="#">{"News"}</Link>
-                <Link href="#">{"Events"}</Link>
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://samtel.vercel.app/"
+                >
+                  {"Samtel Avionics"}
+                </Link>
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://project-demo.in/samtel-sdhs/"
+                >
+                  {"SDHS"}
+                </Link>
               </div>
             </li>
             <li className="mobile-menu-item">
-              <Link href="/careers">{"Careers"}</Link>
+              <Link href="/about">{"About"}</Link>
             </li>
             <li className="mobile-menu-item">
-              <Link href="/contact-us">{"Contact Us"}</Link>
+              <Link href="/business">{"Business"}</Link>
+            </li>
+            <li className="mobile-menu-item has-submenu">
+              <button className="submenu-toggle" type="button">
+                <span>{"Investors"}</span>
+                <span className="menu-arrow">{"\u203a"}</span>
+              </button>
+              <div className="submenu">
+                <Link href="/investors-informations">
+                  {"Investors Informations"}
+                </Link>
+                <Link href="/company-informations">
+                  {"Company Informations"}
+                </Link>
+              </div>
             </li>
             <li className="mobile-menu-item">
-              <Link href="#">{"Privacy Policy"}</Link>
+              <Link
+                href="https://samtel.vercel.app/careers"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {"Careers"}
+              </Link>
+            </li>
+            <li className="mobile-menu-item">
+              <Link
+                href="https://samtel.vercel.app/contact-us"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {"Contact Us"}
+              </Link>
             </li>
           </ul>
         </div>
