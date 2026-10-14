@@ -25,10 +25,10 @@ export default function Header() {
                   <Link href="#">{"Group Companies"}</Link>
                   <ul className="site_dropdown_menu">
                     <li>
-                      <Link href="#">{"Samtel Avionics"}</Link>
+                      <Link target="_blank" href="https://samtel.vercel.app/">{"Samtel Avionics"}</Link>
                     </li>
                     <li>
-                      <Link href="#">{"SDHS"}</Link>
+                      <Link target="_blank" href="https://sdhs.vercel.app/">{"SDHS"}</Link>
                     </li>
                   </ul>
                 </li>
@@ -54,10 +54,14 @@ export default function Header() {
                   </ul>
                 </li>
                 <li>
-                  <Link href="/careers">{"Careers"}</Link>
+                  <Link href="https://samtel.vercel.app/careers" target="_blank">
+                    {"Careers"}
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/contact-us">{"Contact Us"}</Link>
+                  <Link href="https://samtel.vercel.app/contact-us" target="_blank">
+                    {"Contact Us"}
+                  </Link>
                 </li>
               </ul>
             </nav>

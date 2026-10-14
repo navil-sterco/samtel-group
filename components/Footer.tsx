@@ -22,7 +22,9 @@ export default function Footer() {
                     <Link href="/about">{"About"}</Link>
                   </li>
                   <li>
-                    <Link href="/education">{"Education"}</Link>
+                    <Link href="https://samtel.vercel.app/sustainability-csr" target="_blank">
+                      {"Education"}
+                    </Link>
                   </li>
                   <li>
                     <Link href="/business">{"Business "}</Link>
@@ -31,10 +33,14 @@ export default function Footer() {
                     <Link href="/investors-informations">{"Investors"}</Link>
                   </li>
                   <li>
-                    <Link href="/careers">{"Careers"}</Link>
+                    <Link href="https://samtel.vercel.app/careers" target="_blank">
+                      {"Careers"}
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/contact-us">{"Contact Us"}</Link>
+                    <Link href="https://samtel.vercel.app/contact-us" target="_blank">
+                      {"Contact Us"}
+                    </Link>
                   </li>
                 </ul> */}
               </div>
@@ -100,7 +106,7 @@ export default function Footer() {
               <img src="/images/optronics.webp" alt="Optronics" />
               <span>{"Optronics"}</span>
             </Link>
-            <Link href="/education" className="industry-card1 land">
+            <Link href="https://samtel.vercel.app/sustainability-csr" target="_blank" className="industry-card1 land">
               <img src="/images/education-new.webp" alt="Education" />
               <span>{"Education"}</span>
             </Link>
