@@ -1,5 +1,8 @@
 import Link from "next/link";
+import FinancialYearFilter from "@/components/FinancialYearFilter";
+
 export const metadata = { title: "Investors Informations" };
+
 export default function Page() {
   return (
     <>
@@ -117,12 +120,10 @@ export default function Page() {
             <div className="pro_tab">
               <div className="tab_content_wrapper active" id="tab-airborne">
                 <div className="filter-new">
-                  <label htmlFor="year">{"Financial Year wise Filter"}</label>
-                  <select id="year" className="form-select" name="year">
-                    <option value="">{"All Years"}</option>
-                    <option>{"2024-2025"}</option>
-                    <option>{" 2023-24"}</option>
-                  </select>
+                  <FinancialYearFilter
+                    id="annual-year"
+                    years={["2024-25", "2023-24", "2022-23"]}
+                  />
                 </div>
                 <h3 className="fade-up" data-delay="0.3" data-duration="1">
                   {"Annual Reports"}
@@ -157,7 +158,7 @@ export default function Page() {
                         rel="noopener"
                       ></Link>
                     </div>
-                    <div className="pdf-img" data-year="2024-25">
+                    <div className="pdf-img" data-year="2023-24">
                       <figure>
                         <img
                           src="/images/thum.webp"
@@ -181,7 +182,7 @@ export default function Page() {
                         rel="noopener"
                       ></Link>
                     </div>
-                    <div className="pdf-img" data-year="2024-25">
+                    <div className="pdf-img" data-year="2022-23">
                       <figure>
                         <img
                           src="/images/thum.webp"
@@ -205,7 +206,7 @@ export default function Page() {
                         rel="noopener"
                       ></Link>
                     </div>
-                    <div className="pdf-img" data-year="2024-25">
+                    <div className="pdf-img" data-year="2022-23">
                       <figure>
                         <img
                           src="/images/thum.webp"
@@ -229,7 +230,7 @@ export default function Page() {
                         rel="noopener"
                       ></Link>
                     </div>
-                    <div className="pdf-img" data-year="2024-25">
+                    <div className="pdf-img" data-year="2022-23">
                       <figure>
                         <img
                           src="/images/thum.webp"
@@ -253,7 +254,7 @@ export default function Page() {
                         rel="noopener"
                       ></Link>
                     </div>
-                    <div className="pdf-img" data-year="2024-25">
+                    <div className="pdf-img" data-year="2022-23">
                       <figure>
                         <img
                           src="/images/thum.webp"
@@ -286,12 +287,10 @@ export default function Page() {
                 style={{ display: "none" } as React.CSSProperties}
               >
                 <div className="filter-new">
-                  <label htmlFor="year">{"Financial Year wise Filter"}</label>
-                  <select id="year" className="form-select" name="year">
-                    <option value="">{"All Years"}</option>
-                    <option>{"2024-2025"}</option>
-                    <option>{" 2023-24"}</option>
-                  </select>
+                  <FinancialYearFilter
+                    id="results-year"
+                    years={["2025-26"]}
+                  />
                 </div>
                 <h3 className="fade-up" data-delay="0.3" data-duration="1">
                   {"Financial Results"}
@@ -300,6 +299,7 @@ export default function Page() {
                   className="quarterly fade-up"
                   data-delay="0.3"
                   data-duration="1"
+                  data-year="2025-26"
                 >
                   <h4 className="year-title">{"2025-26"}</h4>
                   <div className="quarterly-list">
@@ -494,12 +494,10 @@ export default function Page() {
                 style={{ display: "none" } as React.CSSProperties}
               >
                 <div className="filter-new">
-                  <label htmlFor="year">{"Financial Year wise Filter"}</label>
-                  <select id="year" className="form-select" name="year">
-                    <option value="">{"All Years"}</option>
-                    <option>{"2024-2025"}</option>
-                    <option>{" 2023-24"}</option>
-                  </select>
+                  <FinancialYearFilter
+                    id="stock-exchange-year"
+                    years={["2025-26"]}
+                  />
                 </div>
                 <h3 className="fade-up" data-delay="0.3" data-duration="1">
                   {"Intimation to Stock Exchange"}
@@ -508,6 +506,7 @@ export default function Page() {
                   className="anul_grid quarterly-results fade-up"
                   data-delay="0.3"
                   data-duration="1.3"
+                  data-year="2025-26"
                 >
                   <h4 className="year-title">{"2025-26"}</h4>
                   <div className="pdf-img">

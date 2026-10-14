@@ -1,4 +1,6 @@
 import Link from "next/link";
+import FinancialYearFilter from "@/components/FinancialYearFilter";
+
 export const metadata = { title: "Investors Informations" };
 export default function Page() {
   return (
@@ -119,12 +121,10 @@ export default function Page() {
             <div className="pro_tab">
               <div className="tab_content_wrapper active" id="tab-naval">
                 <div className="filter-new">
-                  <label htmlFor="year">{"Financial Year wise Filter"}</label>
-                  <select id="year" className="form-select" name="year">
-                    <option value="">{"All Years"}</option>
-                    <option>{"2024-2025"}</option>
-                    <option>{" 2023-24"}</option>
-                  </select>
+                  <FinancialYearFilter
+                    id="results-year"
+                    years={["2025-26"]}
+                  />
                 </div>
                 <h3 className="fade-up" data-delay="0.3" data-duration="1">
                   {"Financial Results"}
@@ -133,6 +133,7 @@ export default function Page() {
                   className="quarterly fade-up"
                   data-delay="0.3"
                   data-duration="1"
+                  data-year="2025-26"
                 >
                   <h4 className="year-title">{"2025-26"}</h4>
                   <div className="quarterly-list">

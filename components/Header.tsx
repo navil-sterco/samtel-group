@@ -28,7 +28,7 @@ export default function Header() {
                       <Link target="_blank" href="https://samtel.vercel.app/">{"Samtel Avionics"}</Link>
                     </li>
                     <li>
-                      <Link target="_blank" href="https://sdhs.vercel.app/">{"SDHS"}</Link>
+                      <Link target="_blank" href="https://project-demo.in/samtel-sdhs/">{"SDHS"}</Link>
                     </li>
                   </ul>
                 </li>
