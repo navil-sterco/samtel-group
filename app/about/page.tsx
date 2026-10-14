@@ -122,10 +122,10 @@ export default function Page() {
               />
             </figure>
             <div className="edu_list">
-              <h4 className="fade-up" data-delay="0.4" data-duration="1.4">
+              {/* <h4 className="fade-up" data-delay="0.4" data-duration="1.4">
                 {"EDUCATION"}
-              </h4>
-              <blockquote
+              </h4> */}
+              {/* <blockquote
                 className="fade-up"
                 data-delay="0.4"
                 data-duration="1.8"
@@ -133,13 +133,18 @@ export default function Page() {
                 {"Nurturing Minds, "}
                 <span>{"Empowering Future"}</span>
                 {" Generations."}
-              </blockquote>
-              <p className="fade-up" data-delay="0.4" data-duration="2.2">
+              </blockquote> */}
+              <p className="fade-up" data-delay="0.4" data-duration="1.2">
                 {
-                  "As a key focus area of Samtel's social responsibility efforts for nearly four decades, through the schools run by Samtel, we invest in people and future generations"
+                  "With a legacy rooted in innovation and self-reliance, Samtel has actively contributed to India’s Atmanirbhar Bharat initiative while simultaneously placing India on the global map of high-tech design and manufacturing through strategic collaborations with international aerospace, defence, unmanned technology, space/ satellite communications and railway companies."
                 }
               </p>
-              <Link
+                 <p className="fade-up" data-delay="0.4" data-duration="1.4">
+                {
+                  "By aligning its vision with the Government of India’s ‘Make in India – Make for the World’ initiative, Samtel has demonstrated that Indian companies can compete and excel in the global arena. Its journey reflects a commitment to self-reliance and technological innovation while fostering partnerships that strengthen India’s position as a global leader in high-tech manufacturing."
+                }
+              </p>
+              {/* <Link
                 href="#"
                 className="more_btn fade-up"
                 data-delay="0.6"
@@ -155,7 +160,7 @@ export default function Page() {
                 >
                   <polyline points="9 18 15 12 9 6"></polyline>
                 </svg>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
