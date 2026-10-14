@@ -8,7 +8,16 @@ export default function Footer() {
           <div className="col-lg-10 mx-auto">
             <div className="footer_grid">
               <div className="footer_left">
-                <ul>
+                <div className="footer_address">
+                  <h4>Design and Production Facilities:</h4>
+                  <p>2nd Floor, Plot No. 288-A, Udyog Vihar Phase-IV, Gurugram 122015, Haryana, INDIA.</p>
+                </div>
+                 <div className="footer_address">
+                  <h4>Registered Office:</h4>
+                  <p>1212, 12th Floor, 43, Chiranjiv Tower, Nehru Place, New Delhi - 110019</p>
+                </div>
+
+                {/* <ul>
                   <li>
                     <Link href="/about">{"About"}</Link>
                   </li>
@@ -33,7 +42,7 @@ export default function Footer() {
                       {"Contact Us"}
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
               <div className="footer_right">
                 <div className="social-icon">
