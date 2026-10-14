@@ -82,19 +82,19 @@ export default function Footer() {
               <img src="/images/defence.webp" alt="Naval Systems" />
               <span>{"Naval Systems"}</span>
             </Link>
-            <Link href="https://samtel.vercel.app/category/space-and-satellite-communication" target="_blank" className="industry-card1 space">
+            <Link href="https://samtel.vercel.app/category/space-satellite" target="_blank" className="industry-card1 space">
               <img src="/images/space.webp" alt="Space and Satellite" />
               <span>{"Space & Satellite"}</span>
             </Link>
-            <Link href="https://samtel.vercel.app/category/uav-drones" target="_blank" className="industry-card1 unmanned">
+            <Link href="https://samtel.vercel.app/category/unmanned-systems" target="_blank" className="industry-card1 unmanned">
               <img src="/images/unmanned.webp" alt="Unmanned Systems" />
               <span>{"Unmanned Systems"}</span>
             </Link>
-            <Link href="https://samtel.vercel.app/category/railway-electronics" target="_blank" className="industry-card1 railways">
+            <Link href="https://samtel.vercel.app/category/railways" target="_blank" className="industry-card1 railways">
               <img src="/images/railway.webp" alt="Railways" />
               <span>{"Railways"}</span>
             </Link>
-            <Link href="https://samtel.vercel.app/category/optronics" target="_blank" className="industry-card1 industrial">
+            <Link href="https://samtel.vercel.app/category/land-tactical-systems" target="_blank" className="industry-card1 industrial">
               <img src="/images/optronics1.webp" alt="Optronics" />
               <span>{"Optronics"}</span>
             </Link>
