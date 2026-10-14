@@ -54,23 +54,6 @@ export default function Footer() {
                 </ul> */}
               </div>
               <div className="footer_right">
-                <div className="social-icon">
-                  <Link href="#">
-                    <img src="/images/facebook-icon.svg" alt="Facebook" />
-                  </Link>
-                  <Link href="#">
-                    <img src="/images/x-icon.svg" alt="X" />
-                  </Link>
-                  <Link href="#">
-                    <img src="/images/youtube-icon.svg" alt="YouTube" />
-                  </Link>
-                  <Link href="#">
-                    <img src="/images/instagram-icon.svg" alt="Instagram" />
-                  </Link>
-                  <Link href="#">
-                    <img src="/images/linkdin-icon.svg" alt="LinkedIn" />
-                  </Link>
-                </div>
                 <div className="copyright">
                   <p>
                     {"Copyright \u00a9 Samtel Avionics. All rights Reserved."}
@@ -91,28 +74,28 @@ export default function Footer() {
             <span>{"INDUSTRIES"}</span>
           </div>
           <div className="industries-grid">
-            <Link href="/defence-and-avionics" className="industry-card1 airborne">
+            <Link href="https://samtel.vercel.app/category/airborne-systems" target="_blank" className="industry-card1 airborne">
               <img src="/images/airborne.webp" alt="Airborne Systems" />
               <span>{"Airborne Systems"}</span>
             </Link>
-            <Link href="/business" className="industry-card1 naval">
+            <Link href="https://samtel.vercel.app/category/naval-systems" target="_blank" className="industry-card1 naval">
               <img src="/images/defence.webp" alt="Naval Systems" />
               <span>{"Naval Systems"}</span>
             </Link>
-            <Link href="/space-and-satellite-communication" className="industry-card1 space">
+            <Link href="https://samtel.vercel.app/category/space-and-satellite-communication" target="_blank" className="industry-card1 space">
               <img src="/images/space.webp" alt="Space and Satellite" />
               <span>{"Space & Satellite"}</span>
             </Link>
-            <Link href="/uav-drones" className="industry-card1 unmanned">
+            <Link href="https://samtel.vercel.app/category/uav-drones" target="_blank" className="industry-card1 unmanned">
               <img src="/images/unmanned.webp" alt="Unmanned Systems" />
               <span>{"Unmanned Systems"}</span>
             </Link>
-            <Link href="/railway-electronics" className="industry-card1 railways">
+            <Link href="https://samtel.vercel.app/category/railway-electronics" target="_blank" className="industry-card1 railways">
               <img src="/images/railway.webp" alt="Railways" />
               <span>{"Railways"}</span>
             </Link>
-            <Link href="/optronics" className="industry-card1 industrial">
-              <img src="/images/optronics.webp" alt="Optronics" />
+            <Link href="https://samtel.vercel.app/category/optronics" target="_blank" className="industry-card1 industrial">
+              <img src="/images/optronics1.webp" alt="Optronics" />
               <span>{"Optronics"}</span>
             </Link>
             <Link href="https://samtel.vercel.app/sustainability-csr" target="_blank" className="industry-card1 land">
@@ -134,7 +117,10 @@ export default function Footer() {
                 <h2>{"Design & Production Facilities"}</h2>
                 <p>{"2nd Floor, Plot No. 288-A, Udyog Vihar Phase-IV, Gurugram 122015, Haryana, INDIA."}</p>
                 <div className="contact-phone">
-                  <a href="tel:+911244682000">{"+91 124 4682000"}</a>
+                  <a href="tel:+911244682000">
+                    <img alt="" loading="lazy" width="18" height="18" decoding="async" data-nimg="1" style={{ color: "transparent", marginRight: "8px" }} src="/images/phone.svg"></img>
+                    {"+91 124 4682000"}
+                  </a>
                 </div>
                 <div className="contact-line" />
               </div>
@@ -142,7 +128,10 @@ export default function Footer() {
                 <h2>{"Registered Office"}</h2>
                 <p>{"1212, 12th Floor, 43, Chiranjiv Tower, Nehru Place, New Delhi - 110019"}</p>
                 <div className="contact-phone">
-                  <a href="tel:+911140555700">{"+91 11 40555700"}</a>
+                  <a href="tel:+911140555700">
+                    <img alt="" loading="lazy" width="18" height="18" decoding="async" data-nimg="1" style={{ color: "transparent",marginRight: "8px" }} src="/images/phone.svg"></img>
+                    {"+91 11 40555700"}
+                  </a>
                 </div>
                 <div className="contact-line" />
               </div>
