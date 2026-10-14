@@ -124,37 +124,58 @@ introTl
   /*happening slider js*/
 
 
-  
 
 document.addEventListener('DOMContentLoaded', function () {
-  const swiper = new Swiper('.happenings-slider', {
-    slidesPerView: 1.2,
-    spaceBetween: 8,
-    grabCursor: true,
-    
-    // Custom Right Navigation Arrow
-    navigation: {
-      nextEl: '.swiper-button-next-custom',
-    },
-    
-    // Breakpoints for Responsiveness
-    breakpoints: {
-      480: {
-        slidesPerView: 2.2,
-        spaceBetween: 8,
-      },
-      768: {
-        slidesPerView: 3.2,
-        spaceBetween: 8,
-      },
-      1024: {
-        slidesPerView: 4,
-        spaceBetween: 8,
-        allowTouchMove: true, // Desktop par scroll seamlessly continuous chalega
-      }
+    let swiper = null;
+
+    function initHappeningsSlider() {
+        const sliderElement = document.querySelector('.happenings-slider');
+
+        if (!sliderElement) return;
+
+        // Mobile: Swiper disable
+        if (window.innerWidth < 991) {
+            if (swiper) {
+                swiper.destroy(true, true);
+                swiper = null;
+            }
+            return;
+        }
+
+        // Tablet and desktop: Swiper enable
+        if (!swiper) {
+            swiper = new Swiper('.happenings-slider', {
+                slidesPerView: 3.2,
+                spaceBetween: 8,
+                grabCursor: true,
+
+                navigation: {
+                    nextEl: '.swiper-button-next-custom'
+                },
+
+                breakpoints: {
+                    768: {
+                        slidesPerView: 3.2,
+                        spaceBetween: 8
+                    },
+                    1024: {
+                        slidesPerView: 4,
+                        spaceBetween: 8,
+                        allowTouchMove: true
+                    }
+                }
+            });
+        }
     }
-  });
+
+    initHappeningsSlider();
+
+    window.addEventListener('resize', initHappeningsSlider);
 });
+
+
+
+
 
 var swiper = new Swiper(".capacitySwiper", {
 
@@ -173,6 +194,8 @@ var swiper = new Swiper(".capacitySwiper", {
 });
 
 
+
+})(jQuery);
 
 document.addEventListener("DOMContentLoaded", function () {
     const slider = document.querySelector(".experties_boxes");
@@ -219,8 +242,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.addEventListener("resize", initExpertSlider);
 });
-
-
-})(jQuery);
-
 

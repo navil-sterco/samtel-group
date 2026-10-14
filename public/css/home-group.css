@@ -653,9 +653,7 @@ display: flex;
         display: block;
     }
 
-    .slider-outer-wrapper {
-        padding-left: 1.5rem;
-    }
+
     .mb_ind_grid {
     text-align: left;
     }
@@ -1146,6 +1144,8 @@ display: flex;
     .happening-header {
         padding-left: 0;
         padding-right: 0;
+        justify-content: center;
+    text-align: center;
     }
 
     .happenings-section {
@@ -1273,6 +1273,30 @@ display: flex;
         margin: 0;
         font-size: 1.4rem;
     }
+.happenings-section .more_btn {
+    display: none;
+}
+    .happenings-section .swiper-wrapper {
+        flex-wrap: wrap;
+    }
+    .slider-outer-wrapper {
+        margin-inline: 2rem;
+    }
+    .happenings-section .swiper-slide {
+        display: none;
+    }
+          .happenings-section .swiper-slide:nth-child(1) {
+        display: block;
+    }
+        .happenings-section .swiper-slide:nth-child(2) {
+        display: block;
+    }
+
+}
+
+
+@media(max-width: 767px) {
+
 }
 
 .anachor-tag {
