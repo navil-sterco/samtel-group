@@ -114,7 +114,7 @@ export default function Page() {
                 <h3>{"Defence & Avionics"}</h3>
                 <p>
                   {
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+                    "Supporting mission-critical airborne operations through indigenous avionics.."
                   }
                 </p>
               </div>
@@ -134,6 +134,7 @@ export default function Page() {
                     strokeLinejoin="round"
                   ></path>
                 </svg>
+                <Link href="https://samtel.vercel.app/category/airborne-systems" target="_blank" className="streched_link"></Link>
               </div>
             </div>
             <div className="system-tile">
@@ -155,7 +156,7 @@ export default function Page() {
                 <h3>{"Railway Electronics"}</h3>
                 <p>
                   {
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+                    "Powering connected, intelligent, and efficient railway operations through.."
                   }
                 </p>
               </div>
@@ -176,6 +177,7 @@ export default function Page() {
                   ></path>
                 </svg>
               </div>
+              <Link href="https://samtel.vercel.app/category/railways" target="_blank" className="streched_link"></Link>
             </div>
             <div className="system-tile">
               <div
@@ -193,7 +195,7 @@ export default function Page() {
                 <h3>{"Optronics"}</h3>
                 <p>
                   {
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+                    "Integrated EO/IR, imaging, tracking, stabilization and precision-motion capabilities.."
                   }
                 </p>
               </div>
@@ -214,6 +216,7 @@ export default function Page() {
                   ></path>
                 </svg>
               </div>
+              <Link href="https://samtel.vercel.app/category/land-tactical-systems" target="_blank" className="streched_link"></Link>
             </div>
             <div className="system-tile">
               <div
@@ -231,7 +234,7 @@ export default function Page() {
                 <h3>{"Space & Satellite Communications"}</h3>
                 <p>
                   {
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+                    "Advancing capabilities for a connected, intelligent, and increasingly space-enabled.."
                   }
                 </p>
               </div>
@@ -252,6 +255,7 @@ export default function Page() {
                   ></path>
                 </svg>
               </div>
+              <Link href="https://samtel.vercel.app/category/space-satellite" target="_blank" className="streched_link"></Link>
             </div>
           </div>
           <div className="grid-row-bottom">
@@ -274,7 +278,7 @@ export default function Page() {
                 <h3>{"Unmanned Systems (UAVs & Drones)"}</h3>
                 <p>
                   {
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+                    "Advancing autonomous capabilities through UAV technologies, mission-ready systems"
                   }
                 </p>
               </div>
@@ -295,6 +299,7 @@ export default function Page() {
                   ></path>
                 </svg>
               </div>
+              <Link href="https://samtel.vercel.app/category/unmanned-systems" target="_blank" className="streched_link"></Link>
             </div>
             <div className="system-tile">
               <div
@@ -312,7 +317,7 @@ export default function Page() {
                 <h3>{"Education"}</h3>
                 <p>
                   {
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+                    "As a key focus area of Samtel's social responsibility efforts for nearly four decades"
                   }
                 </p>
               </div>
@@ -333,6 +338,7 @@ export default function Page() {
                   ></path>
                 </svg>
               </div>
+              <Link href="https://samtel.vercel.app/sustainability-csr" target="_blank" className="streched_link"></Link>
             </div>
             <div className="system-tile">
               <div
@@ -353,7 +359,7 @@ export default function Page() {
                 <h3>{"Legacy Business"}</h3>
                 <p>
                   {
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+                    "Samtel’s well-established history of being India’s largest integrated manufacturer of a wide range"
                   }
                 </p>
               </div>
@@ -374,12 +380,13 @@ export default function Page() {
                   ></path>
                 </svg>
               </div>
+              <Link href="/legacy-business" className="streched_link"></Link>
             </div>
                   <div className="mb_ind_grid">
                     <blockquote>Learn more about industrial sectors</blockquote>
                     <div className="mobile-trigger">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path d="M9 6L15 12L9 18" stroke="" strokeWidth="1.1" strokeLinecap="round" strokeLinejoin="round"></path>
+                            <path d="M9 6L15 12L9 18" stroke="" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"></path>
                         </svg>
                     </div>
                     <Link className="streched_link" href="https://samtel.vercel.app/industries" target="_blank">link</Link>
