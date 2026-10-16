@@ -114,7 +114,7 @@ export default function Page() {
                 <h3>{"Defence & Avionics"}</h3>
                 <p>
                   {
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+                    "Supporting mission-critical airborne operations through indigenous avionics.."
                   }
                 </p>
               </div>
@@ -155,7 +155,7 @@ export default function Page() {
                 <h3>{"Railway Electronics"}</h3>
                 <p>
                   {
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+                    "Powering connected, intelligent, and efficient railway operations through.."
                   }
                 </p>
               </div>
@@ -176,6 +176,7 @@ export default function Page() {
                   ></path>
                 </svg>
               </div>
+              <Link href="https://samtel.vercel.app/category/railways" target="_blank" className="streched_link"></Link>
             </div>
             <div className="system-tile">
               <div
@@ -193,7 +194,7 @@ export default function Page() {
                 <h3>{"Optronics"}</h3>
                 <p>
                   {
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+                    "Integrated EO/IR, imaging, tracking, stabilization and precision-motion capabilities.."
                   }
                 </p>
               </div>
@@ -214,6 +215,7 @@ export default function Page() {
                   ></path>
                 </svg>
               </div>
+              <Link href="https://samtel.vercel.app/category/railways" target="_blank" className="streched_link"></Link>
             </div>
             <div className="system-tile">
               <div
@@ -231,7 +233,7 @@ export default function Page() {
                 <h3>{"Space & Satellite Communications"}</h3>
                 <p>
                   {
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+                    "Advancing capabilities for a connected, intelligent, and increasingly space-enabled.."
                   }
                 </p>
               </div>
@@ -274,7 +276,7 @@ export default function Page() {
                 <h3>{"Unmanned Systems (UAVs & Drones)"}</h3>
                 <p>
                   {
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+                    "Advancing autonomous capabilities through UAV technologies, mission-ready systems"
                   }
                 </p>
               </div>
@@ -312,7 +314,7 @@ export default function Page() {
                 <h3>{"Education"}</h3>
                 <p>
                   {
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+                    "As a key focus area of Samtel's social responsibility efforts for nearly four decades"
                   }
                 </p>
               </div>
@@ -353,7 +355,7 @@ export default function Page() {
                 <h3>{"Legacy Business"}</h3>
                 <p>
                   {
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque"
+                    "Samtel’s well-established history of being India’s largest integrated manufacturer of a wide range"
                   }
                 </p>
               </div>

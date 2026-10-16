@@ -21,7 +21,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className="breadcrumb-sec">
+      <section className="breadcrumb-sec" id="business">
         <div className="container">
           <div className="col-lg-10 mx-auto">
             <nav
@@ -59,7 +59,7 @@ export default function Page() {
         </div>
         <div className="container-full">
           <div className="business_list_bx">
-            <div className="business_list">
+            <div className="business_list" id="defence">
               <div className="business_img">
                 <figure className="image">
                   <img src="/images/defence1.webp" className="img-fluid" />
@@ -95,7 +95,7 @@ export default function Page() {
                 </Link>
               </div>
             </div>
-            <div className="business_list">
+            <div className="business_list" id="railways">
               <div className="business_img">
                 <figure className="image">
                   <img src="/images/railway2.webp" className="img-fluid" />
