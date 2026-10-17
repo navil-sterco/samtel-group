@@ -94,7 +94,7 @@ export default function Page() {
           <div className="legacy_grid2">
             <figure className="fade-up" data-delay="0.4" data-duration="1.4">
               <img
-                src="/images/legacy-business-img2.webp"
+                src="/images/legacy-business-img3.webp"
                 alt="banner"
                 className="img-fluid w-100"
               />

@@ -146,7 +146,7 @@
 
 /* According to 2545px */
 .container{width:100%;max-width:min(1505px,68.40909090vw);padding-inline:1.5rem;margin: auto;}
-.container-group{width:100%;max-width:min(1465px,66.590909090vw);padding-inline:1.5rem;margin: auto;}
+.container-group{width:100%;max-width:min(1465px,72.590909090vw);padding-inline:1.5rem;margin: auto;}
 .container-full{width:100%;max-width:min(1755px,91.40625vw);padding-inline:1.5rem;margin: auto;}
 .menu-container { width: 100%; max-width: min(2113px, 83.0255vw); margin-inline: auto; }
 html{font-size:min(0.45454545vw,10px);}

@@ -56,7 +56,7 @@ export default function Footer() {
               <div className="footer_right">
                 <div className="copyright">
                   <p>
-                    {"Copyright \u00a9 Samtel Avionics. All rights Reserved."}
+                    {"Copyright \u00a9 Samtel Group. All rights Reserved."}
                     <br />
                     {" Website Design and Development by "}
                     <Link href="#">{"Sterco"}</Link>
