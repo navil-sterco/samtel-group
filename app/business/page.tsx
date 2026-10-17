@@ -14,7 +14,7 @@ export default function Page() {
               <h1>{"Business"}</h1>
               <blockquote>
                 {
-                  " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text."
+                  " Samtel Group delivers advanced technologies and mission-critical solutions across Defence & Avionics, Railway Electronics, Space & Satellite, UAVs & Drones, and Optronics."
                 }
               </blockquote>
             </div>

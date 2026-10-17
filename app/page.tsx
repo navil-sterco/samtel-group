@@ -454,7 +454,7 @@ export default function Page() {
                       "Private defence makers push for deeper Indian innovation and export muscle\n"
                     }
                   </h3>
-                  <span className="happening-date">{"September 09, 2026"}</span>
+                  <span className="happening-date">{"August 26, 2026"}</span>
                 </div>
                 <Link className="streched_link" href="#"></Link>
               </div>
@@ -490,7 +490,7 @@ export default function Page() {
                       "Samtel Avionics appoints Bharti Airtel veteran Akhil Gupta as Strategic Advisor"
                     }
                   </h3>
-                  <span className="happening-date">{"September 03, 2026"}</span>
+                  <span className="happening-date">{"August 3, 2026"}</span>
                 </div>
                 <Link className="streched_link" href="#"></Link>
               </div>

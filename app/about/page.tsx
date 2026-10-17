@@ -145,7 +145,7 @@ export default function Page() {
                   "By aligning its vision with the Government of India’s ‘Make in India – Make for the World’ initiative, Samtel has demonstrated that Indian companies can compete and excel in the global arena. Its journey reflects a commitment to self-reliance and technological innovation while fostering partnerships that strengthen India’s position as a global leader in high-tech manufacturing."
                 }
               </p>
-              <Link
+              {/* <Link
                 href="https://samtel.vercel.app/sustainability-csr"
                 target="_blank"
                 className="more_btn fade-up"
@@ -162,7 +162,7 @@ export default function Page() {
                 >
                   <polyline points="9 18 15 12 9 6"></polyline>
                 </svg>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
