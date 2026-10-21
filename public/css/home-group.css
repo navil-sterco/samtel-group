@@ -189,7 +189,7 @@
 
 .epxert_item {
     padding-block: 5rem;
-    padding-inline: 5rem;
+    padding-inline: 2rem;
     text-align: center;
     border: 1px solid #DFDADA;
     position: relative;
@@ -203,7 +203,7 @@
 }
 
 .epxert_item p {
-    font: var(--font-24);
+    font: var(--font-21);
     color: var(--color-23);
     font-weight: normal;
 }

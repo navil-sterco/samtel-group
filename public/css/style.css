@@ -152,7 +152,7 @@
 html{font-size:min(0.45454545vw,10px);}
 .more_btn {width: 3.2rem;height: 3.2rem;display: inline-flex;background-color: var(--color-c8);}
 .more_btn>img { margin: auto; width: 100%; max-width: 1.5rem; }
-a.more_btn:hover { background: var(--color-c8); }
+a.more_btn:hover {     background: #d9d7d7; }
 .font_title>p { font: var(--font-21); font-weight: 900; color: var(--color-23); letter-spacing: 1.05px; text-transform: uppercase; margin-bottom: 2rem; }
 .font_title>blockquote { font: var(--font-45); font-weight: 300; color: var(--color-23); letter-spacing: -0.9px; }
 .font_title>blockquote>b { font-weight: 300; color: var(--color-c8); }

@@ -73,7 +73,7 @@ export default function Page() {
               </p>
               <div className="legacy_counter">
                 <h3>
-                  {"65 "}
+                  {"50 "}
                   <sup>{"+"}</sup>
                 </h3>
                 <p>
