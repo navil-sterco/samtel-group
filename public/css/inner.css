@@ -314,11 +314,15 @@
     .nurt_add{padding-left:6rem;border-left:2px solid #FBF22D6a;}
     .nurt_mind{position:relative;}
     .nurt_mind:before{content:"";position:absolute;left:0;right:0;bottom:0;height:70rem;background-color:var(--color-c8);z-index:-1;}
-    .nurt_ttl{margin:0 4rem 7rem 4rem;text-align:center;}
+    .nurt_ttl{margin:0 4rem 7rem 4rem;text-align:left;}
     .nurt_ttl h4{font:var(--font-21);color:var(--color-23);font-weight:900;margin-bottom:2rem;letter-spacing:1.05px;text-transform:uppercase;line-height:1.7;}
     .nurt_ttl blockquote{font:var(--font-45);color:var(--color-23);font-weight:300;margin-bottom:5rem;letter-spacing:-0.9px;line-height:1.5;}
     .nurt_ttl p{font:var(--font-28);color:var(--color-23);font-weight:300;line-height:1.5;margin:0;}
     .nurt_banner{padding-bottom:15rem;}
+    .nurt_mind {
+    position: relative;
+    padding-block: 10rem 0;
+}
 
 
 @media(max-width:2100px){

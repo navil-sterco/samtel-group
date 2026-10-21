@@ -38,6 +38,9 @@ export default function Header() {
                 <li>
                   <Link href="/business">{"Business"}</Link>
                 </li>
+                   <li>
+                  <Link href="/samtel-india-ltd">{"Samtel India"}</Link>
+                </li>
                 <li className="site_dropdown">
                   <Link href="#">{"Investors "}</Link>
                   <ul className="site_dropdown_menu">
