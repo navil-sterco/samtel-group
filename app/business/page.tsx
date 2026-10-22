@@ -170,7 +170,7 @@ export default function Page() {
               </div>
               <div className="business_img">
                 <figure className="image">
-                  <img src="/images/space1.webp" className="img-fluid" />
+                  <img src="/images/space12.webp" className="img-fluid" />
                 </figure>
               </div>
             </div>

@@ -34,7 +34,7 @@ export default function Page() {
                   {"50 "}
                   <sup>{"+"}</sup>
                 </h3>
-                <p>{"Years of Expertise"}</p>
+                <p>{"Years of"} <br/>{"Experience"}</p>
               </div>
               <div
                 className="epxert_item fade-up"
@@ -42,26 +42,27 @@ export default function Page() {
                 data-duration="1.4"
               >
                 <h3>
-                  {"3000 "}
+                  {"100 "}
                   <sup>{"+"}</sup>
                 </h3>
-                <p>{"Employees"}</p>
+                <p>{"Products Designed in Our Labs"}</p>
               </div>
               <div
                 className="epxert_item fade-up"
                 data-delay="0.3"
                 data-duration="1.8"
               >
-                <h3>{"14"}</h3>
-                <p>{"Plants"}</p>
+                <h3>{"$100"} <sup>{"M"}</sup></h3>
+                <p>{"Worth of Products Supplied to Global Customers"}</p>
               </div>
               <div
                 className="epxert_item fade-up"
                 data-delay="0.3"
                 data-duration="2.2"
               >
-                <h3>{"12"}</h3>
-                <p>{"Locations"}</p>
+                <h3>{"1M"} <sup>{"+"}</sup></h3>
+                 
+                <p>{"Flying Hours of Our Avionics Products"}</p>
               </div>
             </div>
           </div>

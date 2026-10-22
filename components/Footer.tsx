@@ -15,15 +15,18 @@ export default function Footer() {
                 <div className="footer_address">
                   <h4>Design and Production Facilities:</h4>
                   <p>2nd Floor, Plot No. 288-A, Udyog Vihar Phase-IV, Gurugram 122015, Haryana, INDIA.</p>
+                  <div className="number_bx">
                   <p className="mobile"><img src="/images/phone.webp" alt="call"  className="img-fluid"/> <Link href="tel:+91 124 4682000"> +91 124 4682000</Link></p>
                   <p className="mobile"> <img src="/images/print.svg" alt="fax"  className="img-fluid"/> +91 124 4682029</p>
+                </div>
                 </div>
                  <div className="footer_address">
                   <h4>Registered Office:</h4>
                   <p>1212, 12th Floor, 43, Chiranjiv Tower, Nehru Place, New Delhi - 110019</p>
+                      <div className="number_bx">
                    <p className="mobile"><img src="/images/phone.webp" alt="call"  className="img-fluid"/> <Link href="tel:+91 11 40555700"> +91 11 40555700</Link></p>
                      <p className="mobile"> <img src="/images/print.svg" alt="fax"  className="img-fluid"/>+91 11 41555006</p>
-                         
+                       </div>  
                 </div>
 
                 {/* <ul>
