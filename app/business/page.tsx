@@ -77,7 +77,7 @@ export default function Page() {
                   }
                 </p>
                 <Link
-                  href="https://samtel.vercel.app/category/airborne-systems"
+                  href="https://www.samtelavionics.com/category/airborne-solutions"
                   target="_blank"
                   className="more_btn fade-up"
                   data-delay="0.6"
@@ -114,7 +114,7 @@ export default function Page() {
                   }
                 </p>
                 <Link
-                  href="https://samtel.vercel.app/category/railways"
+                  href="https://www.samtelavionics.com/category/railway-electronics"
                   target="_blank"
                   className="more_btn fade-up"
                   data-delay="0.6"
@@ -149,7 +149,7 @@ export default function Page() {
                     }
                   </p>
                   <Link
-                    href="https://samtel.vercel.app/category/space-satellite"
+                    href="https://www.samtelavionics.com/category/space-satellite-systems"
                     target="_blank"
                     className="more_btn fade-up"
                     data-delay="0.6"
@@ -188,7 +188,7 @@ export default function Page() {
                     }
                   </p>
                   <Link
-                    href="https://samtel.vercel.app/category/unmanned-systems"
+                    href="https://www.samtelavionics.com/category/unmanned-solutions"
                     target="_blank"
                     className="more_btn fade-up"
                     data-delay="0.6"
@@ -233,7 +233,7 @@ export default function Page() {
                   }
                 </p>
                 <Link
-                  href="https://samtel.vercel.app/category/land-tactical-systems"
+                  href="https://www.samtelavionics.com/category/land-solutions"
                   target="_blank"
                   className="more_btn fade-up"
                   data-delay="0.6"

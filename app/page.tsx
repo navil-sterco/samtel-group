@@ -136,7 +136,7 @@ export default function Page() {
                     strokeLinejoin="round"
                   ></path>
                 </svg>
-                <Link href="https://samtel.vercel.app/category/airborne-systems" target="_blank" className="streched_link"></Link>
+                <Link href="https://www.samtelavionics.com/category/airborne-solutions" target="_blank" className="streched_link"></Link>
               </div>
             </div>
             <div className="system-tile">
@@ -179,7 +179,7 @@ export default function Page() {
                   ></path>
                 </svg>
               </div>
-              <Link href="https://samtel.vercel.app/category/railways" target="_blank" className="streched_link"></Link>
+              <Link href="https://www.samtelavionics.com/category/railway-electronics" target="_blank" className="streched_link"></Link>
             </div>
             <div className="system-tile">
               <div
@@ -218,7 +218,7 @@ export default function Page() {
                   ></path>
                 </svg>
               </div>
-              <Link href="https://samtel.vercel.app/category/land-tactical-systems" target="_blank" className="streched_link"></Link>
+              <Link href="https://www.samtelavionics.com/category/land-solutions" target="_blank" className="streched_link"></Link>
             </div>
             <div className="system-tile">
               <div
@@ -257,7 +257,7 @@ export default function Page() {
                   ></path>
                 </svg>
               </div>
-              <Link href="https://samtel.vercel.app/category/space-satellite" target="_blank" className="streched_link"></Link>
+              <Link href="https://www.samtelavionics.com/category/space-satellite-systems" target="_blank" className="streched_link"></Link>
             </div>
           </div>
           <div className="grid-row-bottom">
@@ -301,7 +301,7 @@ export default function Page() {
                   ></path>
                 </svg>
               </div>
-              <Link href="https://samtel.vercel.app/category/unmanned-systems" target="_blank" className="streched_link"></Link>
+              <Link href="https://www.samtelavionics.com/category/unmanned-solutions" target="_blank" className="streched_link"></Link>
             </div>
             <div className="system-tile">
               <div
