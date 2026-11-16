@@ -417,7 +417,7 @@ export default function Page() {
               </blockquote>
             </div>
             <Link
-              href="/newsroom"
+              href="https://www.samtelavionics.com/media/press-coverage" target="_blank"
               className="more_btn fade-up"
               data-delay="0.6"
               data-duration="1"
