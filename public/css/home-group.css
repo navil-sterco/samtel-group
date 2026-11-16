@@ -680,6 +680,7 @@ display: flex;
     width: 100%;
     height: 100%;
     object-fit: cover;
+        object-position: top;
 }
 
 .happening-content {
@@ -697,6 +698,7 @@ display: flex;
     overflow: hidden;
     color: #ffffff;
     letter-spacing: 0.42px;
+    padding-inline: 0 3rem;
 }
 
 .happening-date {
@@ -715,6 +717,20 @@ display: flex;
 .happenings-section .more_btn svg {
     stroke: currentColor;
     color: var(--color-c8);
+}
+
+.happening-video-play {
+    pointer-events: none;
+    place-items: center;
+    display: grid;
+    position: absolute;
+    inset: 0;
+        bottom: 15rem;
+}
+.happening-video-play img {
+    filter: brightness(0) invert();
+    width: 6rem;
+    height: auto;
 }
 
 /*socail css start here*/

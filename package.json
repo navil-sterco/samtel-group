@@ -10,6 +10,7 @@
     "format": "prettier --write app components next.config.ts"
   },
   "dependencies": {
+    "@fancyapps/ui": "^5.0.36",
     "next": "^16.4.0",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"

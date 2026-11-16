@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Stylesheets from "@/components/Stylesheets";
 import LegacyScripts from "@/components/LegacyScripts";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
 export const metadata = { title: "SAMTEL GROUP" };
 export default function RootLayout({
   children,

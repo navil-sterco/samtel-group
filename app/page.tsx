@@ -1,3 +1,4 @@
+import VideoLightbox from "@/components/VideoLightbox";
 import Link from "next/link";
 export const metadata = { title: "Samtel Group" };
 export default function Page() {
@@ -279,7 +280,7 @@ export default function Page() {
                 <h3>{"Unmanned Systems (UAVs & Drones)"}</h3>
                 <p>
                   {
-                    "Advancing autonomous capabilities through UAV technologies, mission-ready systems"
+                    "Advancing autonomous capabilities through UAV technologies, mission-ready systems.."
                   }
                 </p>
               </div>
@@ -318,7 +319,7 @@ export default function Page() {
                 <h3>{"Education"}</h3>
                 <p>
                   {
-                    "As a key focus area of Samtel's social responsibility efforts for nearly four decades"
+                    "As a key focus area of Samtel's social responsibility efforts for nearly four decades.."
                   }
                 </p>
               </div>
@@ -360,7 +361,7 @@ export default function Page() {
                 <h3>{"Legacy Business"}</h3>
                 <p>
                   {
-                    "Samtel’s well-established history of being India’s largest integrated manufacturer of a wide range"
+                    "Samtel’s well-established history of being India’s largest integrated manufacturer of a wide range.."
                   }
                 </p>
               </div>
@@ -452,12 +453,12 @@ export default function Page() {
                 <div className="happening-content">
                   <h3>
                     {
-                      "Private defence makers push for deeper Indian innovation and export muscle\n"
+                      "Samtel Avionics and BULL Co., Ltd. Advance Space Debris Collaboration"
                     }
                   </h3>
-                  <span className="happening-date">{"August 26, 2026"}</span>
+                  <span className="happening-date">{"October 15, 2026"}</span>
                 </div>
-                <Link className="streched_link" href="#"></Link>
+                <Link className="streched_link" href="/images/module_1793258220_6ae2f2ec1bf62.pdf" target="_blank"></Link>
               </div>
               <div className="swiper-slide">
                 <div className="happening-image">
@@ -466,16 +467,21 @@ export default function Page() {
                     className="img-fluid"
                     alt="Samtel Avionics"
                   />
+                  <div className="happening-video-play" aria-hidden="true"> <img 
+                  alt="video icon" src="/images/videopausebtn.svg"></img>
+
+                  </div>
                 </div>
                 <div className="happening-content">
                   <h3>
                     {
-                      "Samtel Avionics and Japan's BULL sign MoU on Space debris mitigation solutions\n"
+                      "Mr Puneet Kaura in conversation at the Times Network National Defence Conclave"
                     }
                   </h3>
-                  <span className="happening-date">{"September 08, 2026"}</span>
+                  <span className="happening-date">{"October 15, 2026"}</span>
                 </div>
-                <Link className="streched_link" href="#"></Link>
+                {/* <Link className="streched_link" href="#"></Link> */}
+                <VideoLightbox href="https://www.youtube.com/watch?v=22xOrJqzTuY" />
               </div>
               <div className="swiper-slide">
                 <div className="happening-image">
@@ -488,12 +494,12 @@ export default function Page() {
                 <div className="happening-content">
                   <h3>
                     {
-                      "Samtel Avionics appoints Bharti Airtel veteran Akhil Gupta as Strategic Advisor"
+                      "Samtel Avionics appoints Mr. Sharan Mehta as Group President & Chief Strategy Officer"
                     }
                   </h3>
-                  <span className="happening-date">{"August 3, 2026"}</span>
+                  <span className="happening-date">{"October 12, 2026"}</span>
                 </div>
-                <Link className="streched_link" href="#"></Link>
+                <Link className="streched_link" href="/images/module_1793258566_6ae2f446015be.pdf" target="_blank"></Link>
               </div>
               <div className="swiper-slide">
                 <div className="happening-image">
@@ -506,12 +512,12 @@ export default function Page() {
                 <div className="happening-content">
                   <h3>
                     {
-                      "How homegrown avionics are becoming critical to India’s defence manufacturing push"
+                      "Samtel Avionics brings in Bharti Airtel veteran Akhil Gupta to drive Space, Satellite and UAV Expansion"
                     }
                   </h3>
-                  <span className="happening-date">{"August 30, 2026"}</span>
+                  <span className="happening-date">{"July 31, 2026"}</span>
                 </div>
-                <Link className="streched_link" href="#"></Link>
+                <Link className="streched_link" href="/images/module_1793258352_6ae2f370ac30a.pdf" target="_blank"></Link>
               </div>
             </div>
           </div>
