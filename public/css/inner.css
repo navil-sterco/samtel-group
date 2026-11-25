@@ -323,6 +323,25 @@
     position: relative;
     padding-block: 10rem 0;
 }
+.cta-box {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.cta-btn a{
+background-color: var(--color-white);
+    color: var(--color-c8);
+    text-decoration: none;
+    padding: 1rem 4rem;
+    font-weight: 500;
+    border-radius: .5rem;
+    transition: .45s ease;
+}
+.cta-btn a:hover{
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
 
 
 @media(max-width:2100px){
@@ -388,6 +407,15 @@
         .legacy_grid {
         grid-template-columns: 720fr 680fr;
     }
+.abt_one { padding: 6rem 0 9rem; }
+.edu_grid {
+    margin-top: 10.5rem;
+}
+.nurt_mind {
+    padding-block: 6rem 0;
+}
+
+
 }
 
 @media(max-width:1299px){
@@ -476,6 +504,10 @@
     .nurt_banner figure:after{display:none;}
     .nurt_banner{padding-bottom:6rem;}
     .nurtin_cont{margin:3rem 0 0 0;gap: 2rem;}
+    .cta-box {
+    flex-direction: column;
+    align-items: center;
+}
 }
 @media(max-width:575px){
     .abt_cont blockquote{margin-bottom:2rem;}
@@ -564,6 +596,9 @@
 .business_list_reve .business_text::before {
         left: 25%;
     }
+    .business_sec1 {
+    padding-block: 6rem 9rem;
+}
 }
 
 @media (max-width:1299px) {

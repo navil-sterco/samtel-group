@@ -155,11 +155,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 breakpoints: {
                     768: {
-                        slidesPerView: 3.2,
+                        slidesPerView: 3,
                         spaceBetween: 8
                     },
                     1024: {
-                        slidesPerView: 4,
+                        slidesPerView: 3,
                         spaceBetween: 8,
                         allowTouchMove: true
                     }

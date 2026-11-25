@@ -38,11 +38,8 @@ export default function Header() {
                 <li>
                   <Link href="/business">{"Business"}</Link>
                 </li>
-                   <li>
-                  <Link href="/samtel-india-ltd">{"Samtel India"}</Link>
-                </li>
-                <li className="site_dropdown">
-                  <Link href="#">{"Investors "}</Link>
+                   <li className="site_dropdown">
+                  <Link href="/samtel-india-ltd">{"Samtel India Limited"}</Link>
                   <ul className="site_dropdown_menu">
                     <li>
                       <Link href="/investors-informations">
@@ -56,6 +53,10 @@ export default function Header() {
                     </li>
                   </ul>
                 </li>
+                {/* <li className="site_dropdown">
+                  <Link href="#">{"Investors "}</Link>
+                  
+                </li> */}
                 <li>
                   <Link href="https://samtel.vercel.app/careers" target="_blank">
                     {"Careers"}
