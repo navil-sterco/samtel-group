@@ -1,5 +1,5 @@
 import Link from "next/link";
-export const metadata = { title: "Legacy Business" };
+export const metadata = { title: "Samtel India Limited" };
 export default function Page() {
   return (
     <>
@@ -7,11 +7,11 @@ export default function Page() {
         <div className="container">
           <div className="col-lg-10 mx-auto">
             <div className="inner-text">
-              <h1>{"Samtel India Ltd"}</h1>
+              <h1>{"Samtel India Limited"}</h1>
               <blockquote>
               
                 {
-                  "Samtel India Limited (SIL) was incorporated on 28.06.1981 under the Indian Companies Act, 1956. SIL is a listed company and its equity shares are listed at BSE Ltd."
+                  "A part of Samtel’s legacy business engaged in manufacturing of picture tubes for Black & White televisions before the advent of colour televisions in the 80s. "
                 }
            
               </blockquote>
@@ -34,7 +34,7 @@ export default function Page() {
                 </li>
         
                 <li className="breadcrumb-item active" aria-current="page">
-                  {"Samtel India Ltd"}
+                  {"Samtel India Limited"}
                 </li>
               </ol>
             </nav>
@@ -49,7 +49,7 @@ export default function Page() {
             <div className="nurt_ttl">
               <h4>{"SAMTEL INDIA LIMITED"}</h4>
               <blockquote>
-                {"Nurturing Minds, Empowering Future Generations."}
+                {"Legacy business - Picture Tubes for televisions"}
               </blockquote>
            
             </div>
@@ -67,12 +67,12 @@ export default function Page() {
                     <div className="nurtin_cont">
                       <p>
                         {
-                          "The company was into the manufacturing picture tubes for black & white television. However, due to change in technology and advent of new age televisions the business of the Company suffered losses and closed all its manufacturing units."
+                          "Samtel India Limited (SIL) was incorporated on 28.06.1981 under the Indian Companies Act, 1956. SIL is a listed company and its equity shares are listed at BSE Ltd. The company was set up to manufactur picture tubes for black & white televisions. However, due to change in technology and advent of new age televisions, the business of the Company suffered losses and it closed all its television picture tube manufacturing units."
                         }
                       </p>
                       <div className="nurt_add">
                         <h4>
-                          {"Registered Office"}
+                          {"Registered Office of Samtel India Limited"}
                           <span>
                             {
                               "1212, 12th Floor, 43, Chiranjiv Tower, Nehru Place, New Delhi – 110019"
@@ -85,9 +85,34 @@ export default function Page() {
                 </div>
               </figcaption>
             </figure>
+                <div className="fade-up cta-box"  data-delay="0.4" data-duration="1.8">
+                      <div className="cta-btn">
+                         <Link
+                  href="company-informations"> Company Information
+                
+                </Link>
+                        </div>     
+
+                            <div className="cta-btn">
+                         <Link
+                  href="investors-informations"> Investor Information
+                
+                </Link>
+                        </div>  
+
+              </div>
           </div>
+
+             
         </div>
+
+   
+        
       </section>
+
+
+
+
     </>
   );
 }

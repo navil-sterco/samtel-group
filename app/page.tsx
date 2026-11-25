@@ -434,8 +434,7 @@ export default function Page() {
               </svg>
             </Link>
           </div>
-        </div>
-        <div
+              <div
           className="slider-outer-wrapper fade-up"
           data-delay="0.7"
           data-duration="1"
@@ -501,6 +500,7 @@ export default function Page() {
                 </div>
                 <Link className="streched_link" href="/images/module_1793258566_6ae2f446015be.pdf" target="_blank"></Link>
               </div>
+{/*               
               <div className="swiper-slide">
                 <div className="happening-image">
                   <img
@@ -518,10 +518,13 @@ export default function Page() {
                   <span className="happening-date">{"July 31, 2026"}</span>
                 </div>
                 <Link className="streched_link" href="/images/module_1793258352_6ae2f370ac30a.pdf" target="_blank"></Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
+
+        </div>
+    
       </section>
       <section
         className="samtel_social fade-up"

@@ -249,15 +249,15 @@
 
 @media (max-width: 1399px) {
     .epxert_item {
-        padding-block: 3rem;
-        padding-inline: 3rem;
+           padding-block: 2rem;
+        padding-inline: 1rem;
     }
 }
 
 @media (max-width: 1299px) {
-    .epxert_item {
+     .epxert_item {
         padding-block: 2rem;
-        padding-inline: 2rem;
+        padding-inline: .5rem;
     }
 }
 
@@ -642,7 +642,7 @@ display: flex;
 }
 
 .slider-outer-wrapper {
-    margin-left: calc((100vw - min(1505px, 68.40909090vw)) / 2 + 1.5rem);
+    /* margin-left: calc((100vw - min(1505px, 68.40909090vw)) / 2 + 1.5rem); */
     overflow: hidden;
 }
 
@@ -1090,12 +1090,50 @@ display: flex;
     background: var(--color-c8);
 }
 
+
 /* ================= RESPONSIVE ================= */
 @media(max-width: 1920px) {
     .home_banner2 {
         padding-block: 18rem 0;
     }
 }
+
+
+@media(max-width: 1399px) {
+    .home_banner2 {
+        padding-block: 11rem 0;
+    }
+    .experiance_location {
+        margin-block: 7rem 2rem;
+    }
+.line-wrap {
+    height: 10rem;
+}
+    .who_we {
+        padding-block: 3rem 0;
+    }
+.who_we .font_title {
+
+        margin-bottom: 7rem;
+        padding-block: 8rem 0;
+
+}
+.happenings-section {
+    padding: 8rem 0;
+    margin-top: 8rem;
+}
+.samtel_social {
+    padding-block: 7rem 9rem;
+}
+.line-section {
+    padding: 3rem 0;
+}
+    .banner_caption .banner_title {
+        margin-top: 6rem;
+    }
+
+}
+
 
 @media(max-width: 1199px) {
     .slider-outer-wrapper {
