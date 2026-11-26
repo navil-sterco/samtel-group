@@ -225,7 +225,9 @@
 
 
 @media (max-width: 991px) {
-.products_systems_detail { padding-block: 5rem; }
+    .products_systems_detail {
+        padding-block: 1rem 5rem;
+    }
 .filter-new { margin-bottom: 3rem; }
 .products_systems_detail h3 { margin-bottom: 2rem; }
 .notice-text blockquote {
@@ -492,7 +494,12 @@ background-color: var(--color-white);
 }
 
 @media(max-width:767px){
-    .abt_one{padding:4rem 0 4rem;}
+    .abt_one {
+        padding: 1rem 0 4rem;
+    }
+        .line-wrap {
+        height: 7rem;
+    }
     .abt_cont{margin-bottom:2rem;}
     .abt_grid{gap:2rem;}
     .abt_grid{margin-bottom:4rem;}
@@ -619,8 +626,8 @@ padding-block: 4rem 10rem;
 
 @media (max-width: 991px) {
     .business_sec1 {
-            padding-block: 5rem 9rem;
-        }
+        padding-block: 1rem 5rem;
+    }
 .business-txt {
 
     margin-bottom: 4rem;
@@ -658,6 +665,17 @@ padding-block: 4rem 10rem;
     .business_text {
         padding-inline: 3rem;
         padding-block: 3rem;
+    }
+        .who_we .font_title {
+        margin-bottom: 5rem;
+        padding-block: 6rem 0;
+    }
+    .nurt_mind {
+    position: relative;
+    padding-block: 1rem 0;
+}
+    .nurt_mind:before {
+        height: 58rem;
     }
 
 }
