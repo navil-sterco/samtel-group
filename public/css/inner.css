@@ -409,13 +409,11 @@ background-color: var(--color-white);
         .legacy_grid {
         grid-template-columns: 720fr 680fr;
     }
-.abt_one { padding: 6rem 0 9rem; }
+
 .edu_grid {
     margin-top: 10.5rem;
 }
-.nurt_mind {
-    padding-block: 6rem 0;
-}
+
 
 
 }
@@ -426,7 +424,9 @@ background-color: var(--color-white);
     .edu_grid{grid-template-columns:80rem auto;gap:9rem;}
     .abt_list{margin:2rem 0 0 28rem;}
     .legacy_cont p{margin-right:0;}
-    .nurt_ttl{margin:0 5rem 7rem 5rem;}
+    .nurt_ttl {
+        margin: 0 5rem 7rem 9rem;
+    }
     .nurtin_cont{gap:3.9rem;}
     .nurt_add{padding-left:3rem;}
 .legacy_cont { width: 44.1rem; margin-left: auto; }
@@ -598,9 +598,7 @@ padding-block: 4rem 10rem;
 .business_list_reve .business_text::before {
         left: 25%;
     }
-    .business_sec1 {
-    padding-block: 6rem 9rem;
-}
+
 }
 
 @media (max-width:1299px) {
