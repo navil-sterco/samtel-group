@@ -15,7 +15,9 @@
 
 /*product_list css satrt here*/
 
-.products_systems_detail{padding-block:10rem;}
+.products_systems_detail{
+    padding-block: 4rem 10rem;
+}
 .products_systems_detail h3{font:var(--font-45);margin-bottom: 4rem;letter-spacing: -0.9px;font-weight:300; text-align: left;}
 /* .products_systems_detail  .product_item p{text-align: center;} */
 
@@ -273,7 +275,7 @@
 /* /* about and Legacy page css starts here */
 
     .abt_cont blockquote{font:var(--font-28);color:var(--color-23);font-weight:300;line-height:1.43;margin-bottom:3rem;}
-    .abt_one{padding:12rem 0 15rem;}
+    .abt_one{padding: 3rem 0 10rem;}
     .abt_cont{margin-bottom:7rem;padding-right:13rem;}
     .abt_cont p{font:var(--font-18);color:var(--color-23);font-weight:300;}
     .abt_grid{display:grid;grid-template-columns:auto 85rem;gap:14.4rem;margin-bottom:12rem;}
@@ -321,7 +323,7 @@
     .nurt_banner{padding-bottom:15rem;}
     .nurt_mind {
     position: relative;
-    padding-block: 10rem 0;
+   padding-block: 4rem 0;
 }
 .cta-box {
     display: flex;
@@ -529,7 +531,7 @@ background-color: var(--color-white);
 
 /* business_sec1 */
 .business_sec1{
-    padding-block: 12rem 15rem;
+padding-block: 4rem 10rem;
 }
 .business-txt{position: relative;margin-bottom: 8rem;}
 .business-txt h2 span{
