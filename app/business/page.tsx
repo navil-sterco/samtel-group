@@ -305,7 +305,7 @@ export default function Page() {
                     }
                   </p>
                   <Link
-                    href="/samtel-india-ltd"
+                    href="/legacy-business"
                     className="more_btn fade-up"
                     data-delay="0.6"
                     data-duration="1"

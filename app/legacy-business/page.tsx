@@ -110,6 +110,13 @@ export default function Page() {
                   "Due to technology obsolescence, the Group shifted its focus to other business ventures, and closed all its manufacturing units of picture tube related businesses."
                 }
               </p>
+
+       <Link
+                  href="/samtel-india-ltd" className="cta-btn1"> 
+Samtel India Limited
+                
+                </Link>
+              
             </div>
           </div>
         </div>
